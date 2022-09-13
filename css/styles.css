@@ -33,7 +33,7 @@ span {
   color: var(--accent-color);
 }
 
-.nav-site .current {
+.nav-site .active {
   color: var(--accent-color);
 }
 
