@@ -90,12 +90,16 @@ ul {
   list-style: none;
 }
 
+a{
+  text-decoration: none;
+}
+
 address a{
   color: var(--address-color);
 
-  font-style: normal;
   font-size: 14px;
   line-height: 1.71;  
+  font-style: normal
 }
 
 .location {
@@ -113,7 +117,6 @@ address a{
 
 .button-list button {
   background-color: var(--additional-color-background);
-  font-family: inherit;
 
   font-weight: 500;
 font-size: 16px;
@@ -158,11 +161,10 @@ line-height: 1.87;
   color: var(--additional-color);
   background-color: var(--accent-color);
 
-  font-family: inherit;
+
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
-  align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
 }
